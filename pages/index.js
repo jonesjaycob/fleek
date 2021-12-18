@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import React from "react";
 import styles from "../styles/Home.module.css";
 
@@ -28,7 +27,7 @@ export default function Home() {
       </Head>
 
       <main style={{ backgroundColor: currentColor }} className={styles.main}>
-        <Image width="400" height="200" alt="Jaycob" src="/jaycobs-logo.svg" />
+        <img style={{ width: "40%" }} alt="Jaycob" src="/jaycobs-logo.svg" />
         <span
           style={{
             border: "1px solid #ffffff",
